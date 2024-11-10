@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -10;
+}
+canvas {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
